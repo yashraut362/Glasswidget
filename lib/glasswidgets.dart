@@ -1,3 +1,3 @@
-library glasswidget;
+library glasswidgets;
 
 export 'src/glasscontainer.dart';

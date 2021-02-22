@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:glasswidget/glasswidget.dart';
+import 'package:glasswidget/glasswidgets.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
 
                                  //Glasscontainer
           child: GlassContainer(
-            glasscurve: 30, //giving border curve to glassmorphic container
+            glasscurve: 30, //giving curve to glassmorphic container
             glassheight: 200, //giving height to glassmorphic container
             glasswidth: 300, //giving width to glassmorphic container
             glasswidget: //Child widget u can use any flutter widget over here.
