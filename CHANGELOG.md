@@ -1,3 +1,5 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.2] - TODO:updated documentation .
+* screenshots and description updated.
 
-* TODO: Describe initial release.
+## [0.0.1] - TODO:Beta -1 .
+* added glasscontainer widget.
