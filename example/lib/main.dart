@@ -18,8 +18,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: Center(
-
-                                 //Glasscontainer
+          //Glasscontainer
           child: GlassContainer(
             glasscurve: 30, //giving curve to glassmorphic container
             glassheight: 200, //giving height to glassmorphic container
@@ -36,8 +35,6 @@ class MyApp extends StatelessWidget {
               ),
             ),
           ),
-
-
         ),
       ),
     );
