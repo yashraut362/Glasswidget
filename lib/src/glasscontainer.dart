@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class GlassContainer extends StatefulWidget {
   GlassContainer({
     Key key,
-    this.glassborder = 0.0,
+    this.glasscurve = 0.0,
     this.glassheight,
     this.glasswidth,
     this.glasswidget,
@@ -12,7 +12,7 @@ class GlassContainer extends StatefulWidget {
 
   final double glassheight;
   final double glasswidth;
-  final double glassborder;
+  final double glasscurve;
   final Widget glasswidget;
 
   @override
@@ -30,7 +30,7 @@ class _GlassContainerState extends State<GlassContainer> {
             color: Colors.black.withOpacity(0.2))
       ]),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(widget.glassborder),
+        borderRadius: BorderRadius.circular(widget.glasscurve),
         child: BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 26.0, sigmaY: 26.0),
           child: Container(
@@ -38,7 +38,7 @@ class _GlassContainerState extends State<GlassContainer> {
               width: widget.glasswidth,
               decoration: BoxDecoration(
                 color: Colors.white.withOpacity(0.15),
-                borderRadius: BorderRadius.circular(widget.glassborder),
+                borderRadius: BorderRadius.circular(widget.glasscurve),
                 border: Border.all(
                   width: 1.5,
                   color: Colors.white.withOpacity(0.2),
