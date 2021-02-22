@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:glasswidget/glasswidgets.dart';
+import 'package:glasswidgets/glasswidgets.dart';
 
 void main() {
   runApp(MyApp());
