@@ -14,7 +14,7 @@ Currently This package only contains Glasscontainer
 etc. 
 
 # screenshots
-<img src ="./screenshots/glasscontainer.jpeg" height= "500">
+![s1](https://user-images.githubusercontent.com/37141368/108827077-2563e480-75eb-11eb-9aeb-74e634dd8051.PNG)
 
 ## Usage
 
@@ -31,9 +31,8 @@ To use this package :
     glasswidgets:
 ```
 
-### How to use
-
-
+### Simple Examples
+# GlassContainer
 ``` dart
 new GlassContainer(
             glasscurve: 30, //giving curve to glassmorphic container
@@ -51,4 +50,43 @@ new GlassContainer(
               ),
             ),
           ),
+```
+
+# GlassSquare
+
+``` dart
+new GlassSquare(
+                          glassSize: 150,
+                          glasscurve: 10,
+                          glasswidget: Center(
+                            child: Text(
+                              'GlassSquare',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                        ),
+```
+
+
+# GlassCircle
+
+``` dart
+new GlassCircle(
+                          glassSize: 150,
+                          glasswidget: Center(
+                            child: Text(
+                              'GlassCircle',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                        ),
 ```
