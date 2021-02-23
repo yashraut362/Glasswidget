@@ -1,3 +1,7 @@
+## [0.0.4] - TODO:added GlassSquare and GlassCircle .
+* added two new widgets.
+* added screenshots
+
 ## [0.0.3] - TODO:updated documentation .
 * updated readme.
 
